@@ -74,7 +74,7 @@ const Form = () => {
                     defaultValue=""
                     onChange={(e) => setPages(e.target.value)}
                 />
-                <Button variant="contained" sx={{ width: '25ch', m: 1 }} color="primary" onClick={() => fetchData(name, author, Number(pages))}>Submit</Button>
+                <Button id="submit" variant="contained" sx={{ width: '25ch', m: 1 }} color="primary" onClick={() => fetchData(name, author, Number(pages))}>Submit</Button>
             </Box>
         </div>
         
