@@ -4,7 +4,7 @@ import morgan from "morgan"
 import mongoose, { Connection } from 'mongoose'
 import dotenv from "dotenv"
 import cors, {CorsOptions} from 'cors'
-import bookRouter from "./src/routes/books"
+import bookRouter from "./src/routes/book"
 import router from "./src/routes/index"
 
 dotenv.config()
