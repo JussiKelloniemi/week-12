@@ -52,7 +52,7 @@ const Form = () => {
             >
                 <TextField
                     required
-                    id="outline-required"
+                    id="name"
                     label="Name"
                     defaultValue=""
                     onChange={(e) => setName(e.target.value)}
@@ -60,7 +60,7 @@ const Form = () => {
 
                 <TextField
                     required
-                    id="outline-required"
+                    id="author"
                     label="Author"
                     defaultValue=""
                     onChange={(e) => setAuthor(e.target.value)}
@@ -68,7 +68,7 @@ const Form = () => {
 
                 <TextField
                     required
-                    id="outline-required"
+                    id="pages"
                     label="Pages"
                     type="number"
                     defaultValue=""
